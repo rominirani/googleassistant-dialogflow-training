@@ -3,7 +3,7 @@ This folder contains several Dialogflow projects that you can import into Dialog
 Project Details:
 
  - `FamousQuotesAgent` : Simple Dialogflow Agent that demonstrates use of single Intent and responses that provide a random quote. No follow up intents, no fulfillment, just plain hello world like Agent. 
- - `FamousQuotesAgent-With-Fulfillment` : This project extends the above `FamousQuotesAgent` with a Fulfillment step. The Fulfillment is a Firebase Cloud Function that provides a random quote based on the category specified by the user. 
+ - `FamousQuotesAgent-With-Fulfillment` : This project extends the above `FamousQuotesAgent` with a Fulfillment step. The Fulfillment is a Firebase Cloud Function that provides a random quote based on the category specified by the user. Use the `index.js` file in this folder for the Fulfillment action.
  - `MeetingRoomAgent` : This Dialogflow Agent allows the user to book a meeting room by specifying the meeting room name, day of the meeting and the start time of the meeting. It demonstrates use of required parameters, user defined entities, system entities and more. 
  - `MeetingRoomAgent-With-Followup` : Enhances the above `MeetingRoomAgent` project with use of Follow up Intents in Dialoglow to create a non-linear conversation.
 
